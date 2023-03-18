@@ -1,0 +1,66 @@
+
+/* Universal styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Adding style to individual contents */
+
+#container {
+
+    width: 60vh;
+    margin: 10em 20em;
+    background: black;
+    padding: 20px;
+}
+
+#title {
+    margin-left: 100px;
+
+}
+
+#container h1,form {
+
+    color: white;
+}
+
+form>input {
+    display: inline;
+    margin-left: 70px;
+    width: 70%;
+    padding-top: 3%;
+}
+
+form>button {
+    width: fit-content;
+    margin-left: 100px;
+    background-color: red;
+    padding: 5px;
+    color: white;
+}
+
+#answer {
+    margin-left: 130px;
+    padding: 5px;
+    color: rgba(213, 255, 1, 0.826);
+    font: large bold;
+    font-style: oblique;
+
+}
+
+
+/* making this content a bit reesponsive */
+
+@media screen and (max-width:768px) {
+
+    #container {
+        width: 60vh;
+        margin: 10px;
+        background: black;
+        padding: 20px;
+    }
+
+}
