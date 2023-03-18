@@ -18,7 +18,7 @@
 }
 
 #title {
-    margin-left: 100px;
+    margin-left: 10px;
 
 }
 
@@ -37,7 +37,7 @@ form>input {
 form>button {
     width: fit-content;
     margin-left: 100px;
-    background-color: red;
+    background-color: rgb(28, 134, 166);
     padding: 5px;
     color: white;
 }
@@ -45,7 +45,7 @@ form>button {
 #answer {
     margin-left: 130px;
     padding: 5px;
-    color: rgba(213, 255, 1, 0.826);
+    color: rgba(219, 21, 219, 0.826);
     font: large bold;
     font-style: oblique;
 
@@ -57,10 +57,10 @@ form>button {
 @media screen and (max-width:768px) {
 
     #container {
-        width: 60vh;
-        margin: 10px;
+        margin: 20px;
         background: black;
-        padding: 20px;
+        padding: 30px;
     }
+   
 
 }
